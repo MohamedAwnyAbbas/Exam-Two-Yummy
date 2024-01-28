@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Sidenav */
+.sidenav
+{
+    position: fixed;
+    top: 0;
+    left: -288.042px;
+    height: 100vh;
+    z-index: 99999;
+}
+.blacknav ul li
+{
+    list-style-type: none;
+    padding-top: 10px;
+    position: relative;
+    top: 100px;
+}
+.blacknav ul li a
+{
+    text-decoration: none;
+    color: white !important;
+    cursor: pointer;
+}
+.blacknav i
+{
+    color: white;
+}
+.whitenav img
+{
+    width: 40px;
+}
+.whitenav i
+{
+    cursor: pointer;
+}
+
+/* Home Default Data */
+.home  .meal-layer
+{
+    top: 120%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: ease 0.5s;
+}
+.home .meal:hover .meal-layer
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.search input::placeholder
+{
+    color: white !important;
+}
